@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "rootDir": ".",
+    "baseUrl": "src",
+    "declaration": true,
+    "esModuleInterop": true,
+    "jsx": "react-jsx",
+    "target": "es6",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "types": ["vitest/globals"],
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
+    "lib": ["dom", "dom.iterable", "ESNext", "ESNext.AsyncIterable"],
+    "noUncheckedIndexedAccess": true,
+    "noImplicitReturns": false,
+    "noUnusedLocals": true,
+    "outDir": "./dist",
+    "strict": true,
+    "noEmitOnError": true,
+    "downlevelIteration": true,
+    "skipLibCheck": true
+  },
+  "include": ["vitest.config.ts", "vitest.setup.ts", "src"],
+  "exclude": ["./**/dist", "node_modules", "dist"]
+}
