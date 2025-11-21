@@ -1,6 +1,6 @@
 {
   "name": "@fische/react",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "React Hooks for utility",
   "repository": "https://github.com/XunderbarX/fische",
   "main": "./dist/cjs/index.js",
